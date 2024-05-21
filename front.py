@@ -47,7 +47,7 @@ if prompt := st.chat_input("cómo puedo ayudarte?"):
 
 
     with st.chat_message("assistant"):
-        st.markdown(prompt)
+        st.markdown(res)
 
     st.session_state.messages.append({"role": "assistant", "content": res})
 
