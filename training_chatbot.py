@@ -8,8 +8,9 @@ from keras.layers import Dense, Dropout
 from keras.optimizers import SGD
 from keras.optimizers.schedules import ExponentialDecay
 import random
+nltk.download('punkt')
 
-data_file = open('intents.json', 'r', encoding='uft-8').read()
+data_file = open('intents.json', 'r', encoding='utf-8').read()
 intents = json.loads(data_file)
 
 lemmatizer = WordNetLemmatizer()
