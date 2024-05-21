@@ -7,10 +7,10 @@ from nltk.stem import WordNetLemmatizer
 from keras.models import load_model
 
 lemmatizer = WordNetLemmatizer()
-intents = json.loads(open('intents.json', 'r', encoding='uft-8').read())
+intents = json.loads(open('intents.json', 'r', encoding='utf-8').read())
 
 words = pickle.load(open('words.pkl', 'rb'))
-classes = pickle.load(open('classes.pkl', 'rb'))
+classes = pickle.load(open('clsses.pkl', 'rb'))
 model = load_model('chatbot_model.h5')
 
 def clean_up_sentence(sentence):
