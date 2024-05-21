@@ -1,4 +1,7 @@
 import streamlit as st
+from chatbot import predict_class, get_response, intents
+
+st.set_option('deprecation.showfileUploaderEncoding', False)
 
 
 st.set_page_config(page_title="Chaty",
@@ -38,9 +41,17 @@ if prompt := st.chat_input("cómo puedo ayudarte?"):
         st.markdown(prompt)
     st.session_state.messages.append({"role": "user", "content": prompt})
 
+    #implementacion del algoritmo
+    insts = predict_class(prompt)
+    res = get_response(insts, intents)
+
+
     with st.chat_message("assistant"):
         st.markdown(prompt)
 
-    st.session_state.messages.append({"role": "assistant", "content": prompt})
+    st.session_state.messages.append({"role": "assistant", "content": res})
+
+
+
 
 
