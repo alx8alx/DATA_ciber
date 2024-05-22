@@ -65,7 +65,9 @@ for message in st.session_state.messages:
 if st.session_state.first_message:
     with st.chat_message("assistant"):
         st.markdown("Hola, ¿Como puedo ayudarte?")
+
     st.session_state.messages.append({"role": "assistant", "content": "Hola, ¿Como puedo ayudarte?"})
+
     st.session_state.first_message = False
 
 if prompt := st.chat_input("cómo puedo ayudarte?"):
