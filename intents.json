@@ -4,21 +4,21 @@
     { 
         "tag": "saludo",
         "patterns": ["Hola", "Buenos días", "Buenas tardes"],
-        "responses": ["¡Hola! ¿Cómo puedo ayudarte hoy?", "¡Hola! ¿Qué necesitas?", "¡Hola! Bienvenido a Beyond Education. ¿Cómo puedo asistirte?", "¡Buen día! ¿Cómo puedo ser de ayuda?"]
+        "responses": ["¡Hola! Bienvenido a Beyond Education. ¿Cómo puedo ayudarte hoy?", "¡Hola! Bienvenido a Beyond Education. ¿Qué necesitas?", "¡Hola! Bienvenido a Beyond Education. ¿Cómo puedo asistirte?", "¡Buen día! Bienvenido a Beyond Education. ¿Cómo puedo ser de ayuda?"]
     },    
     { 
         "tag": "despedida",
         "patterns": ["Adiós", "Hasta luego", "Nos vemos"],
-        "responses": ["¡Adiós! ¡Esperamos verte pronto!", "¡Hasta luego! ¡Gracias por tu interés!", "¡Hasta pronto! ¡Estamos a tu disposición!" ]
+        "responses": ["¡Adiós! ¡Esperamos verte pronto!", "¡Hasta luego! ¡Gracias por tu interés en Beyond Education!", "¡Hasta pronto! ¡Estamos a tu disposición!" ]
     }, 
     { 
         "tag": "agradecimiento",
         "patterns": ["Gracias", "Muchas gracias", "Gracias por la ayuda", "Gracias por la información"],
-        "responses": ["¡De nada! ¡Estoy aquí para ayudarte!", "¡No hay de qué! Si necesitas cualquier otra cosa, no dudes en consultarnos", "¡Fue un placer ayudarte!"]
+        "responses": ["¡De nada! ¡En Beyond Education estamos para ayudarte!", "¡No hay de qué! Si necesitas cualquier otra cosa, no dudes en consultarnos", "¡Fue un placer ayudarte!"]
     },
     { 
         "tag": "consulta servicios",
-        "patterns": ["Que servicios tenéis", "Que servicios ofrecéis"],
+        "patterns": ["Que servicios tenéis", "Que servicios ofrecéis", "que servicios teneis", "que servicios ofreceis"],
         "responses": ["Actualmente contamos con múltiples servicios. Podemos ofrecer orientación vocacional y profesional, selección de colegios y universidades, preparación de exámenes, campamentos, cursos preuniversitarios, voluntariados y desarrollo personal. ¿En qué estás interesado?"]
     },
 
@@ -503,8 +503,360 @@
       "tag": "universidades extranjero",
       "patterns": ["Universidades en el extranjero", "Quiero estudiar en una universidad en el extranjero"],
       "responses": ["Ofrecemos servicios de selección de universidades en el extranjero, ayudándote a encontrar la institución y el programa que mejor se adapten a tus intereses y metas académicas. ¿Te gustaría más información? Encuentra más información [aquí](https://beyondeducation.es/estudiar-en-el-extranjero-grados-y-postgrados/)."]
+    },
+    { "tag": "voluntariados",
+      "patterns": ["tipo de voluntariados", "cuantos voluntariados hay", "que voluntariados hay", "qué voluntariados hay?"],
+      "responses": ["Contamos con voluntariados de verano, voluntariados de transformación, voluntariados en África y voluntariados juveniles en Kamarata ", "Tenemos programas de verano, de transformación, voluntariados en África y en Kamarata"]
+
+    },
+    { "tag": "voluntariados",
+      "patterns": ["cuentame acerca de los voluntariados de verano", "hablame de los programas de verano", "summer volunteer program", "quiero saber acerca de los voluntariados de verano"],
+      "responses": [" Se trata de voluntariados de 2, 3, 4 o 6 semanas de duración, que te da la oportunidad de viajar a Costa Rica, Ecuador o Panamá para explorar un tema que te apasione. ", "Son programas que te sumergirán en la producción de café, la adaptación al cambio climático y la conservación en Costa Rica, la restauración de ecosistemas y los derechos indígenas en Ecuador, o la conservación impulsada por la comunidad en Panamá."]
+
+    },
+    { "tag": "voluntariados",
+      "patterns": ["a donde me puedo ir de voluntariado en verano", "lugares de los programas de verano de voluntariado", "summer volunteer program", "destinos de los voluntariados de verano"],
+      "responses": [" Tenemos programas en Costa Rica, Ecuador y Panamá ", "Contamos con programas en Costa Rica de 2 a 9 semanas, en Ecuador de 3 a 6 semanas, y en Panamá de 2 a 3 semanas."]
+
+    },
+
+    
+    {
+      "tag": "tipos_voluntariados",
+      "patterns": [
+        "tipo de voluntariados",
+        "cuántos voluntariados hay",
+        "qué voluntariados hay",
+        "qué tipos de programas de voluntariado tienen"
+      ],
+      "responses": [
+        "Contamos con los siguientes tipos de voluntariados: voluntariados de verano, voluntariados de transformación, voluntariados en África y voluntariados juveniles en Kamarata."
+      ]
+    },
+    
+    
+    {
+      "tag": "voluntariados_transformacion",
+      "patterns": [
+        "qué es un voluntariado transformador",
+        "háblame del voluntariado de transformación",
+        "qué incluye el programa de voluntariado transformador",
+        "voluntariado de transformación"
+      ],
+      "responses": [
+        "El voluntariado de transformación se enfoca en la reducción del impacto ambiental a través del trabajo con comunidades locales en varios países. Se especializa en temas como la conservación ambiental, la adaptación al cambio climático y el desarrollo sostenible."
+      ]
+    },
+    {
+      "tag": "voluntariados_africa",
+      "patterns": [
+        "cuéntame acerca de los voluntariados en África",
+        "háblame de los programas en África",
+        "quiero saber acerca de los voluntariados en África",
+        "programas de voluntariado en África"
+      ],
+      "responses": [
+        "Los voluntariados en África incluyen programas en países como Kenia, Ghana, y Tanzania. Los proyectos abarcan desde conservación de la vida silvestre, apoyo en escuelas locales, hasta actividades culturales con las comunidades locales."
+      ]
+    },
+    {
+      "tag": "voluntariados_juveniles_kamarata",
+      "patterns": [
+        "cuéntame acerca de los voluntariados juveniles en Kamarata",
+        "háblame de los programas en Kamarata",
+        "quiero saber acerca de los voluntariados juveniles en Kamarata",
+        "programas de voluntariado juvenil en Kamarata"
+      ],
+      "responses": [
+        "El voluntariado juvenil en Kamarata, Venezuela, se enfoca en el turismo sostenible y el desarrollo comunitario. Los participantes dormirán en hamacas y trabajarán en proyectos de conservación y educación junto con la comunidad indígena local."
+      ]
+    },
+    {
+      "tag": "duracion_voluntariados",
+      "patterns": [
+        "cuánto duran los programas de voluntariado",
+        "duración de los voluntariados",
+        "qué duración tienen los voluntariados",
+        "cuáles son las duraciones de los programas"
+      ],
+      "responses": [
+        "Los programas de voluntariado tienen duraciones variables: voluntariados de verano pueden ser de 2, 3, 4 o 6 semanas, los programas transformadores suelen durar 1 semana, y los programas juveniles en Kamarata duran 12 días."
+      ]
+    },
+    {
+      "tag": "edades_voluntariados",
+      "patterns": [
+        "qué edades pueden participar en los voluntariados",
+        "edades permitidas para los programas de voluntariado",
+        "qué rango de edades aceptan para los voluntariados",
+        "edades de los voluntarios"
+      ],
+      "responses": [
+        "Los programas de voluntariado están disponibles para jóvenes de 13 a 19 años para los programas de verano y preuniversitarios, de 13 a 22 años para los programas transformadores, y mayores de 14 años para los programas en África y Kamarata."
+      ]
+    },
+    {
+      "tag": "costo_voluntariados",
+      "patterns": [
+        "cuánto cuesta un programa de voluntariado",
+        "precio de los voluntariados",
+        "cuáles son los costos de los programas de voluntariado",
+        "precios de los voluntariados"
+      ],
+      "responses": [
+        "Los costos de los programas de voluntariado varían según la duración y la ubicación. Por ejemplo, los programas de verano oscilan entre $4,075 y $6,275 dependiendo de la duración, los programas en África cuestan alrededor de $4,900 CHF por semana, y el voluntariado juvenil en Kamarata tiene un costo de 4,300€."
+      ]
+    },
+    {
+      "tag": "incluye_voluntariados",
+      "patterns": [
+        "qué incluye el programa de voluntariado",
+        "qué está incluido en los voluntariados",
+        "qué servicios están incluidos en los programas",
+        "qué cubren los voluntariados"
+      ],
+      "responses": [
+        "Los programas incluyen alojamiento, comidas, transporte dentro del país, excursiones, y en algunos casos, seguros de salud y de viaje. No incluyen billetes de avión, transporte desde/hacia el aeropuerto, visas (si es necesario), vacunas y exámenes médicos, dinero de bolsillo, y seguros de salud y viaje."
+      ]
+    },
+    {
+      "tag": "actividades_voluntariados",
+      "patterns": [
+        "qué actividades se realizan en los voluntariados",
+        "actividades de los programas de voluntariado",
+        "qué tipo de actividades hacen los voluntarios",
+        "actividades en los programas"
+      ],
+      "responses": [
+        "Las actividades varían según el programa. Pueden incluir trabajo en proyectos de conservación, actividades educativas, visitas culturales, deportes, y más. Por ejemplo, en el programa de verano en Costa Rica, puedes participar en la producción de café y conservación ambiental; en Kamarata, puedes involucrarte en actividades culturales y deportivas con la comunidad indígena."
+      ]
+    },
+    {
+      "tag": "contacto_voluntariados",
+      "patterns": [
+        "cómo puedo contactar para más información",
+        "quiero más información, cómo los contacto",
+        "dónde puedo obtener más información",
+        "quiero hablar con alguien sobre los voluntariados"
+      ],
+      "responses": [
+        "Puedes contactarnos para más información al +34 665 816 673, enviar un correo electrónico a fiorella@beyondeducation.es. También puedes seguirnos en Instagram @beyond_education_es."
+      ]
+    },
+    {
+        "tag": "campamentos_generales",
+        "patterns": [
+            "Cuéntame sobre los campamentos de verano",
+            "¿Qué campamentos ofrecen?",
+            "Información general sobre los campamentos",
+            "Detalles de los campamentos de verano", "que campamentos ofreceis"
+        ],
+        "responses": [
+            "Ofrecemos una variedad de campamentos en diferentes países con actividades y programas únicos para cada grupo de edad."
+        ]
+    },
+    {
+        "tag": "campamento_deportes_londres",
+        "patterns": [
+            "¿Qué actividades se ofrecen en el campamento de deportes por día en Londres?",
+            "Detalles del campamento de deportes por día en Londres",
+            "Precio del campamento de deportes por día en Londres",
+            "Horario del campamento de deportes por día en Londres"
+        ],
+        "responses": [
+            "El campamento de deportes por día en Londres ofrece diversas actividades deportivas. Para más detalles, puedes consultar nuestro catálogo [aquí](https://beyondeducation.es/wp-content/uploads/2024/02/Catalogo-Camps-2024_compressed.pdf)."
+        ]
+    },
+    {
+        "tag": "academia_ingles_west_sussex",
+        "patterns": [
+            "¿Qué incluye la academia de inglés y actividades en West Sussex?",
+            "Fechas de la academia de inglés y actividades en West Sussex",
+            "Precio de la academia de inglés y actividades en West Sussex",
+            "Ubicación de la academia de inglés y actividades en West Sussex"
+        ],
+        "responses": [
+            "La academia de inglés y actividades en West Sussex incluye clases de inglés y una variedad de actividades. Las fechas y precios están disponibles en nuestro catálogo [aquí](https://beyondeducation.es/wp-content/uploads/2024/02/Catalogo-Camps-2024_compressed.pdf)."
+        ]
+    },
+    {
+        "tag": "academia_ingles_deportes_crawley",
+        "patterns": [
+            "¿Qué incluye la academia de inglés y deportes en Crawley?",
+            "Fechas de la academia de inglés y deportes en Crawley",
+            "Precio de la academia de inglés y deportes en Crawley",
+            "Ubicación de la academia de inglés y deportes en Crawley"
+        ],
+        "responses": [
+            "La academia de inglés y deportes en Crawley combina clases de inglés con actividades deportivas. Consulta nuestro catálogo para fechas y precios [aquí](https://beyondeducation.es/wp-content/uploads/2024/02/Catalogo-Camps-2024_compressed.pdf)."
+        ]
+    },
+    {
+        "tag": "academia_ingles_futbol_buckinghamshire",
+        "patterns": [
+            "¿Qué incluye la academia de inglés y fútbol en Buckinghamshire?",
+            "Fechas de la academia de inglés y fútbol en Buckinghamshire",
+            "Precio de la academia de inglés y fútbol en Buckinghamshire",
+            "Ubicación de la academia de inglés y fútbol en Buckinghamshire"
+        ],
+        "responses": [
+            "La academia de inglés y fútbol en Buckinghamshire ofrece entrenamiento de fútbol junto con clases de inglés. Más detalles en nuestro catálogo [aquí](https://beyondeducation.es/wp-content/uploads/2024/02/Catalogo-Camps-2024_compressed.pdf)."
+        ]
+    },
+    {
+        "tag": "academia_ingles_multi_dorset",
+        "patterns": [
+            "¿Qué incluye la academia de inglés y multi actividades en Dorset?",
+            "Fechas de la academia de inglés y multi actividades en Dorset",
+            "Precio de la academia de inglés y multi actividades en Dorset",
+            "Ubicación de la academia de inglés y multi actividades en Dorset"
+        ],
+        "responses": [
+            "La academia de inglés y multi actividades en Dorset combina clases de inglés con una variedad de actividades. Consulta el catálogo para más información [aquí](https://beyondeducation.es/wp-content/uploads/2024/02/Catalogo-Camps-2024_compressed.pdf)."
+        ]
+    },
+    {
+        "tag": "informacion",
+        "patterns": [
+            "informacion",
+            "quiero informacion"
+            
+        ],
+        "responses": [
+            "¿Puedes ser más específico? ¿Sobre qué servicio deseas más información?"
+        ]
+    },
+    {
+        "tag": "consulta",
+        "patterns": [
+            "como puedo contactar con vosotros",
+            "quiero hablar con vosotros"
+            
+        ],
+        "responses": [
+            "Puedes contactarnos para más información al +34 665 816 673, enviar un correo electrónico a fiorella@beyondeducation.es."
+        ]
+    }, 
+    {
+        "tag": "orientacion",
+        "patterns": [
+            "estoy interesada en orientacion",
+            "estoy interesado en orientacion "
+            
+        ],
+        "responses": [
+            "¡Genial! Tenemos dos tipos de orientaciones. La orientación vocacional es un proceso completo y personalizado que te lleva a descubrir tu vocación y orientar tus decisiones para sacar tu máximo potencial. Y si estás buscando empleo, la orientación profesional es un proceso que facilita tu transición al mundo laboral."
+        ]
+    },
+    {
+        "tag": "orientacion vocacional",
+        "patterns": [
+            "estoy interesada en orientacion vocacional",
+            "estoy interesado en orientacion vocacional",
+            "me interesa la orientacion vocacional"
+            
+        ],
+        "responses": [
+            "Contamos con varios perfiles de orientación, escolar, universitario y profesional. El escolar va dirigido a estudiantes de 13-16 años (ESO y Bachillerato), el universitario va dirigido a estudiantes de 17 a 25 años. Y el profesional va dirigido a adultos. Cuéntanos, ¿cuál es tu caso?"
+        ]
+    },
+    {
+        "tag": "perfil escolar",
+        "patterns": [
+            "estoy interesada en perfil escolar",
+            "perfil escolar",
+            "me interesa el perfil escolar"
+            
+        ],
+        "responses": [
+            "Te ayudamos a elegir el sistema académico y el colegio que sacará todo tu potencial, además del itinerario de bachillerato español, las asignaturas de IB o A levels que mejor se ajusten a tu perfil y a tus objetivos académicos. Contacta con nosotros [aquí] (https://beyondeducation.es/contacto/)"
+        ]
+    }, 
+    {
+        "tag": "perfil universitario",
+        "patterns": [
+            "estoy interesada en perfil universitario",
+            "perfil universitario",
+            "me interesa el perfil universitario"
+            
+        ],
+        "responses": [
+            "Te ayudamos a elegir tu carrera universitaria, programa de formación profesional o el postgrado, así como la mejor universidad para ti en el o los países de interés. Contacta con nosotros [aquí] (https://beyondeducation.es/contacto/)"
+        ]
+    },
+    {
+        "tag": "perfil profesional",
+        "patterns": [
+            "estoy interesada en perfil profesional",
+            "perfil profesional",
+            "me interesa el perfil profesional"
+            
+        ],
+        "responses": [
+            "Te ayudamos a reorientar tu recorrido profesional y a construir un camino laboral satisfactorio y que te permita realizarte. Te orientamos en la identificación de las áreas profesionales óptimas según tu perfil. Contacta con nosotros [aquí] (https://beyondeducation.es/contacto/)"
+        ]
+    },
+    {
+        "tag": "orientacion profesional",
+        "patterns": [
+            "estoy interesada en orientacion profesional",
+            "estoy interesado en orientacion profesional",
+            "me interesa la orientacion profesional"
+            
+        ],
+        "responses": [
+            "Contamos con dos tipos de orientación profesional, acompañamiento individual y talleres grupales. Especifica qué tipo de orientación te interesa"
+        ]
+    },
+    {
+        "tag": "acompañamiento individual",
+        "patterns": [
+            "estoy interesada en acompañamiento individual",
+            "estoy interesado en acompañamiento individual",
+            "me interesa el acompañamiento individual",
+            "acompañamiento individual"
+            
+        ],
+        "responses": [
+            "Se trata de 6 sesiones de 60 minutos, con posibilidad de ser presencial u online, adaptándonos a tus necesidades. Diseñaremos juntos un plan de acción que te acercará a tus objetivos. Te llevarás tu objetivo profesional definido, tu CV, carta de presentación y perfil digital, una estrategia de búsqueda de empleo y preparación de entrevistas. Contacta con nosotros [aquí] (https://beyondeducation.es/contacto/)"
+        ]
+    },
+    {
+        "tag": "taller grupal",
+        "patterns": [
+            "estoy interesada en taller grupal",
+            "estoy interesado en taller grupal",
+            "me interesa el taller grupal",
+            "taller grupal"
+            
+        ],
+        "responses": [
+            "Se trata de 2 sesiones de 90 minutos, con posibilidad de ser presencial u online, adaptándonos a tus necesidades. Te proporcionará las claves del mercado laboral y las recomendaciones básicas para desarrollar una estrategia de búsqueda de empleo. Te llevarás tu objetivo profesional definido, tu CV, carta de presentación y perfil digital, una estrategia de búsqueda de empleo y oportunidades. Contacta con nosotros [aquí] (https://beyondeducation.es/contacto/)"
+        ]
+    },
+    {
+        "tag": "mas informacion",
+        "patterns": [
+            "mas informacion",
+            "quiero mas informacion"
+            
+            
+        ],
+        "responses": [
+            "Para poder tener una mejor interacción, y ofrecerte información relevante. Especifica de qué servicio requieres más información, por favor, introduce información seguido del servicio que te interesa. ¡Gracias!"
+        ]
     }
+   
+
+
+
+
+
+
   ]
 }
+
+
+
       
   

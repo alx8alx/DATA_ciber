@@ -10,7 +10,7 @@ lemmatizer = WordNetLemmatizer()
 intents = json.loads(open('intents.json', 'r', encoding='utf-8').read())
 
 words = pickle.load(open('words.pkl', 'rb'))
-classes = pickle.load(open('clsses.pkl', 'rb'))
+classes = pickle.load(open('classes.pkl', 'rb'))
 model = load_model('chatbot_model.h5')
 
 def clean_up_sentence(sentence):
