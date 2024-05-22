@@ -1,7 +1,9 @@
 import streamlit as st
 import psycopg2
 from chatbot import predict_class, get_response, intents
-# from cred import my_database, my_host, my_password, my_port, my_user
+import nltk
+nltk.download('punkt')
+
 
 import os
 
