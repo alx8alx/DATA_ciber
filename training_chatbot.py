@@ -40,7 +40,7 @@ classes = sorted(list(set(classes)))
 
 # Guarda las listas de palabras y clases en archivos pickle
 pickle.dump(words,open('words.pkl','wb'))
-pickle.dump(classes,open('clsses.pkl','wb'))
+pickle.dump(classes,open('classes.pkl','wb'))
 
 training = []
 output_empty = [0] * len(classes)
