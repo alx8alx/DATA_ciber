@@ -1182,7 +1182,139 @@
       "responses": [
           "En Reino Unido las universidades ofrecen alojamiento. Esto se gestiona directamente con ellas, y por supuesto te podemos apoyar en esta parte del proceso si la requieres. En Holanda, en contadas excepciones, las universidades no ofrecen alojamiento, aunque algunas tienen viviendas reservadas u orientan sobre cómo conseguir alojamiento. En Beyond Education podemos ayudarte en la búsqueda de alojamiento. En Estados Unidos, las universidades ofrecen alojamiento. El sistema está pensado para que los estudiantes vivan por lo menos los dos primeros años en el campus, incluso en muchas universidades es obligatorio que así sea durante el primer año. Esa gestión se hace con la universidad pero os ayudamos a tomar decisiones informadas. En caso de decidir vivir fuera del campus, no podemos ayudarte con la búsqueda del alojamiento. "
       ]
-    }
+    },
+    { 
+      "tag": "inglés",
+      "patterns": ["Me pedirán un nivel de inglés para cursar un programa preuniversitario",
+                   "Necesito tener buen nivel de inglés",
+                   "Tengo que saber inglés",
+                   "Qué nivel de inglés se pide"],
+      "responses": ["Si el curso es en inglés requerirás cierto nivel de inglés para seguir el ritmo de las clases. Algunos programas muy académicos exigen un diploma oficial tipo TOEFL o EILTS. Es importante conocer los requisitos de cada programa que también pueden incluir notas académicas y cartas de recomendación de profesores."]
+  }, 
+
+  { 
+    "tag": "edad preuniversitario",
+    "patterns": ["desde qué edad puedo cursar un curso preuniversitario",
+                 "a qué edad puedo empezar un curso preuniversitario",
+                 "cuál es el requisitio de edad para un curso preuniversitario",
+                 "qué edad necesito tener para empezar un curso preuniversitario"],
+    "responses": ["Puedes matricularte para cursar un curso preuniversitario desde los 14 años. Sin embargo, esto puede variar según el programa. "]
+  },
+
+  { 
+    "tag": "duración preuniversitario",
+    "patterns": ["qué duración tiene un curso preuniversitario",
+                 "cuánto dura un curso preuniversitario",
+                 "cuánto dura el programa preuniversitario",
+                 "en cuánto tiempo puedo hacer el curso preuniversitario"],
+    "responses": ["La mayoría de nuestros programas están diseñados para dos o cuatro semanas pero también tenemos programas de una semana."]
+  },
+
+  { 
+    "tag": "duración campamento verano",
+    "patterns": ["qué duración tiene un campamento de verano",
+                 "cuánto dura un campamento de verano"],
+    "responses": ["La duración varía según el tipo de campamento: desde una semana hasta 2 meses."]
+  },
+
+  { 
+    "tag": "billetes avión",
+    "patterns": ["me gestionan los billetes de avión",
+                 "podeis ayudarme con los billetes de avion",
+                 "cómo gestiono los billetes de avión",
+                 "cómo puedo organizar el viaje en avión"],
+    "responses": ["Nosotros no gestionamos los billetes, sin embargo podemos recomendar una agencia de viajes que lo organiza."]
+  },
+
+  { 
+    "tag": "campamento extranjero",
+    "patterns": ["cuál es la edad ideal para enviar a mi hijo a un campamento en el extranjero",
+                 "desde qué edad puede ir mi hijo a un campamento en el extranjero",
+                 "qué requisitos necesita cumplir mi hijo para ir a un campamento en el extranjero",
+                 "cuántos años tiene que tener mi hijo para ir a un campamento en el extranjero"],
+    "responses": ["La edad del niño depende mucho de si ya ha dormido fuera de casa, es tímido o va acompañado de hermanos. Por lo general, se recomiendan a partir de los 8 años. Nuestro asesoramiento es totalmente personalizado, para hacer nuestras recomendaciones siempre tomamos en cuenta circunstancias de cada niño e intentamos encontrar el campamento que mejor encaje con sus características y los objetivos buscados."]
+  },
+
+  { 
+    "tag": "edad campamentos",
+    "patterns": ["para qué edades van dirigidas los campamentos",
+                 "a qué edad puede ir mi hijo a un campamento",
+                 "cuántos años debe tener mi hijo para ir a un campamento",
+                 "a partir de qué edad puede ir mi hijo a los campamentos"],
+    "responses": ["La edad específica dependerá del campamento elegido. En general, los campamentos van dirigidos a niños a partir de 6 años hasta 18 años."]
+  },
+
+  { 
+    "tag": "visado",
+    "patterns": ["tengo que gestionar algún visado para hacer un curso en reino unido",
+                 "hace falta visado para cursar en reino unido",
+                 "necesito tramitar visado para estudiar en reino unido",
+                 "me van a pedir visado si quiero ir a reino unido"],
+    "responses": [" Para el Reino Unido es necesario un visado por períodos más largos de los 6 meses. El colegio “invita” al estudiante y los formularios los han de completar los padres así como realizar el pago del visado con un coste aproximado de 850 libras. A veces los colegios gestionan los visados a través de un servicio de consultoría externa. El visado cubre los costes de la seguridad social en el país durante la estancia del estudiante. En BE te podemos asistir a rellenar los formularios en cualquier punto del proceso o en cualquier otra duda."]
+  },
+
+  { 
+    "tag": "convalidación",
+    "patterns": ["me ayudarán en el proceso de convalidación",
+                 "cómo puedo hacer la convalidación",
+                 "qué necesito para hacer la convalidación",
+                 "cómo gestiono la convalidación"],
+    "responses": ["Te ponemos en contacto con empresas especializadas en gestionar los trámites de convalidación."]
+  },   
+
+  { 
+    "tag": "convalidar estudios",
+    "patterns": ["a la vuelta, ¿podré convalidar mis estudios?",
+                 "despúes del curso en el extranjero, ¿necesito convalidar mis estudios?",
+                 "tengo que convalidar mis estudios",
+                 "hace falta que convalide mis estudios"],
+    "responses": ["Hasta 4º de la ESO no es necesario pero a partir de este curso se han de convalidar."]
+  },    
+
+  { 
+    "tag": "edad extranjero",
+    "patterns": ["a qué edad puedo cursar un año escolar en el extranjero",
+                 "a qué edad puede ir mi hijo cursar un año escolar en el extranjero",
+                 "cuántos años debe tener mi hijo para ir a estudiar un año en el extranjero",
+                 "a partir de qué edad puede ir mi hijo a estudiar un año en el extranjero"],
+    "responses": ["Es recomendable a partir de los 10 años, siendo posible desde antes. Generalmente, los boarding schools comienzan a tener un número sustancial de alumnos con 11 años, los puntos de entrada son generalmente: 11+, 13+ y 16+ sin perjuicio de que admitan a alumnos en otros años."]
+  },   
+
+  { 
+    "tag": "essay",
+    "patterns": ["me ayudan en la preparación del essay que se requiere para aplicar en las universidades en estados unidos",
+                 "cómo hago el essay para aplicar en las universidades en estados unidos",
+                 "cómo se hace el essay para aplicar en las universidades en estados unidos",
+                 "qué necesito para hacer el essay requerido para aplicar en las universidades de estados unidos"],
+    "responses": ["El essay es uno de los elementos fundamentales en la aplicación. Trabajaremos juntos en la preparación y elaboración del mismo diseñando la estrategia del mismo y su construcción."]
+  },  
+
+  { 
+    "tag": "sat",
+    "patterns": ["me ayudan a preparar el sat (examen estandarizado para la admisión universitaria en estados unidos)",
+                 "me ayudan hago el sat",
+                 "me podéis orientar para hacer el sat",
+                 "me asesoran para hacer el sat (examen estandarizado para la admisión universitaria en estados unidos"],
+    "responses": ["Sí, te ayudaremos en la preparación del SAT y en comprender bien la metodología del examen. De esta manera llegarás con mucha más preparación y seguridad al examen."]
+  }, 
+
+  { 
+    "tag": "exito ingreso universidad",
+    "patterns": ["cuál es el porcentaje de éxito de ingreso a las universidades",
+                 "qué porcentaje de éxito hay en el ingreso a las universidades",
+                 "qué porcentaje de admisión tiene el ingreso a las universidades",
+                 "qué éxito hay a la hora de ingresar a la universidad"],
+    "responses": ["El porcentaje de éxito es de 100%, todos nuestros estudiantes han ingresado en alguna de sus opciones de interés. En ocasiones el estudiante no es admitido en su primera opción, sin embargo durante el asesoramiento nos hemos asegurado de contar con otras excelentes opciones que se adecuen a su perfil y expectativas."]
+  }, 
+
+  { 
+    "tag": "ayuda visa",
+    "patterns": ["me ayudarán a gestionar la visa",
+                 "cómo gesitono la visa",
+                 "qué necesito para hacer mi visa",
+                 "me podéis ayudar a tramitar mi visa"],
+    "responses": ["Reino Unido: Si eres miembro de la EU, te guiaremos sobre donde tienes que ir para empezar tu aplicación. Holanda: Los estudiantes de la UE no necesitan visa para entrar a Holanda o tramitar permiso de residencia. Estados Unidos: Te explicaremos los pasos a seguir para la solicitud de la visa y solucionaremos las dudas que tengas sobre el proceso"]
+  }    
    
 
 
