@@ -1,14 +1,14 @@
 import streamlit as st
 import psycopg2
 from chatbot import predict_class, get_response, intents
-from cred import my_database, my_host, my_password, my_port, my_user
+# from cred import my_database, my_host, my_password, my_port, my_user
 
 # Configura las variables de conexión
-HOST = my_host
-DATABASE = my_database
-USER = my_user
-PASSWORD = my_password
-PORT = my_port  # Asegúrate de que este valor sea un entero
+# HOST = my_host
+# DATABASE = my_database
+# USER = my_user
+# PASSWORD = my_password
+# PORT = my_port  # Asegúrate de que este valor sea un entero
 
 # Configura la conexión a la base de datos
 def get_db_connection():
