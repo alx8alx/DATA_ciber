@@ -3,6 +3,8 @@ import psycopg2
 from chatbot import predict_class, get_response, intents
 import nltk
 nltk.download('punkt')
+nltk.download('wordnet')
+
 
 
 import os
