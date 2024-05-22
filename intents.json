@@ -845,7 +845,476 @@
         "responses": [
             "Para poder tener una mejor interacción, y ofrecerte información relevante. Especifica de qué servicio requieres más información, por favor, introduce información seguido del servicio que te interesa. ¡Gracias!"
         ]
-    }
+    },
+    {
+      "tag": "pregunta general",
+      "patterns": [
+          "que es servicio personalizado",
+          "qué es servicio personalizado",
+          "que significa servicio personalizado",
+          "qué significa servicio personalizado"
+          
+          
+      ],
+      "responses": [
+          "En Beyond Education tenemos un proceso estándar para cada servicio que contrates con nosotros. Sin embargo, en función de tus necesidades ajustaremos lo que sea necesario para conseguir alcanzar el objetivo final del servicio prestado. Es por esto que resulta importante recoger información del alumno mediante entrevistas o formularios antes de iniciar el trabajo conjunto. Somos una consultora cercana y flexible que te ayudará a encontrar tu mejor versión."
+      ]
+    },
+    {
+      "tag": "pregunta general",
+      "patterns": [
+          "por que elegir vuestra empresa",
+          "por qué elegir vuestra empresa",
+          "por qué elegir Beyond Education frente a otras consultoras educativas",
+          "por que elegir Beyond Education frente a otras consultoras educativas",
+          "por qué vosotros y no otros",
+          "por que elegiros"
+          
+          
+      ],
+      "responses": [
+          "Tal y como nuestro nombre lo dice, en Beyond Education vamos un paso más allá. Queremos que desarrolles lo académico sin dejar a un lado tu desarrollo socioemocional y tu bienestar. Abordamos a cada chico o chica como un ser integral, nos aproximamos a cada persona con una visión 360º. Incluimos a la familia en todo el proceso."
+      ]
+    },
+    {
+      "tag": "pregunta general",
+      "patterns": [
+          "estoy fuera de españa, puedo tener sus servicios",
+          "estoy fuera de españa, pueden ofrecerme sus servicios",
+          "no estoy en españa, habría algún problema",
+          "no estoy en españa, habria algun problema",
+          "si no estoy en españa, pasa algo"
+          
+          
+          
+      ],
+      "responses": [
+          "No hay problema, puedes acceder sin problema a nuestros servicios. Desde nuestros inicios hemos trabajado en modalidad online, a través de plataformas de videollamadas. Pero, si estás en Madrid o tienes pensado visitarnos pronto, también podemos atenderte en modalidad presencial en nuestras oficinas en Madrid (C/Castelló, 128)."
+      ]
+    },
+    {
+      "tag": "perfil vocacional",
+      "patterns": [
+          "en cuanto tiempo se realiza el perfil vocacional",
+          "en cuánto tiempo se realiza el perfil vocacional",
+          "cuánto tarda el perfil vocacional",
+          "cuánto tarda el perfil vocacional"
+         
+          
+          
+          
+      ],
+      "responses": [
+          "En primer lugar el tiempo variará en función del tipo de perfil vocacional elegido (Express o 360º). Desde el inicio del proceso de evaluación y la entrega y discusión de resultados pueden pasar en 3 y 5 semanas."
+      ]
+    },
+    {
+      "tag": "perfil vocacional",
+      "patterns": [
+          "en qué consiste el proceso de orientación vocacional",
+          "en que consiste el proceso de orientacion vocacional",
+          "de que trata el proceso de orientacion laboral",
+          "de qué trata el proceso de orientación laboral",
+          "de qué va el proceso de orientación laboral",
+          "de que va el proceso de orientación laboral"
+
+          
+      ],
+      "responses": [
+          "El proceso variará en función del tipo de perfil seleccionado. El joven desempeñará un rol activo en todo momento, y, tanto el psicólogo como el consultor, ayudarán a descubrir, aclarar e informar. En líneas generales el proceso consiste en los siguientes pasos: entrevistas a profundidad con el estudiante, entrevistas con los padres del estudiantes, administración de test psicométricos y test proyectivos, reunión de discusión de resultados con psicólogo y consultor académico y construcción del itinerario formativo."
+      ]
+    },
+    {
+      "tag": "perfil vocacional",
+      "patterns": [
+          "en qué consiste el proceso de orientación vocacional",
+          "en que consiste el proceso de orientacion vocacional",
+          "de que trata el proceso de orientacion laboral",
+          "de qué trata el proceso de orientación laboral",
+          "de qué va el proceso de orientación laboral",
+          "de que va el proceso de orientación laboral"
+
+          
+      ],
+      "responses": [
+          "El proceso variará en función del tipo de perfil seleccionado. El joven desempeñará un rol activo en todo momento, y, tanto el psicólogo como el consultor, ayudarán a descubrir, aclarar e informar. En líneas generales el proceso consiste en los siguientes pasos: entrevistas a profundidad con el estudiante, entrevistas con los padres del estudiantes, administración de test psicométricos y test proyectivos, reunión de discusión de resultados con psicólogo y consultor académico y construcción del itinerario formativo."
+      ]
+    },
+    {
+      "tag": "perfil vocacional",
+      "patterns": [
+          "qué me llevo al terminar el proceso de orientación laboral",
+          "qué me llevaré del proceso de orientación laboral"
+           
+      ],
+      "responses": [
+          "Te llevarás un perfil vocacional en donde recogemos de manera detallada toda la información que hemos trabajado junto a ti. Puntualizamos fortalezas, motivaciones, rasgos de personalidad, habilidades e intereses profesionales. Además, nuestros consultores académicos de la mano de nuestros psicólogos, te propondrán grados universitarios, cursos de formación profesional, másteres y/o estudios de postgrado que te ayudarán a planificar tu futuro profesional y convertirte en tu mejor versión. Y por último, te llevarás un itinerario formativo o plan de acción detallado que te ayudará a planificar los próximos pasos que te acercarán a alcanzar tu meta. "
+      ]
+    },
+    {
+      "tag": "perfil vocacional",
+      "patterns": [
+          "por qué incluyen a los padres en el proceso de orientación vocacional",
+          "por qué los padres están en el proceso de orientación vocacional"
+           
+      ],
+      "responses": [
+          "Aún cuando la elección vocacional es una elección individual que parte de un proceso de reflexión que debe realizar el chico o la chica, para nosotros es de gran valor incluir a la familia en este proceso de autoconocimiento del joven. El contexto social y familiar en el que ha crecido, las elecciones profesionales que se han hecho en la familia, las expectativas de los padres, entre otras cosas, son elementos que nos permitirán trabajar con él y acompañarlo en su proceso. Además, podemos ayudar a los padres a acompañar a sus hijos en el momento que atraviesan de forma asertiva.  Es importante señalar que la decisión de incluir o no incluir a los padres se tomará en función de la edad del chico, así como de algunos elementos particulares de la situación. "
+      ]
+    },
+    {
+      "tag": "perfil vocacional",
+      "patterns": [
+          "Y si mis intereses han cambiado durante los siguientes años a haber realizado el perfil vocacional",
+          "Qué pasa si cambio de intereses después de realizar el perfil vocacional"
+           
+      ],
+      "responses": [
+          "Para ello contamos con sesiones de seguimiento. Dependiendo de las inquietudes que presentes y del tiempo transcurrido desde la realización del perfil vocacional, podrás trabajar con el psicólogo o con el consultor académico. De manera conjunta, revisarán el perfil y se evaluará la pertinencia de administrar nuevos test psicométricos o integrar las reflexiones que han surgido posteriormente. Recuerda que la orientación vocacional es un proceso dinámico que se alimenta de la elaboración de nuevas experiencias vividas. "
+      ]
+    },
+    {
+      "tag": "perfil vocacional",
+      "patterns": [
+          "Cuándo es mejor iniciar un proceso de orientación vocacional",
+          "Cuál es el momento ideal para iniciar un proceso de orientación vocacional"
+           
+      ],
+      "responses": [
+          "La elección vocacional es resultado de un proceso gradual, que inicia desde muy temprano. No obstante, entre los 15 y 17 años es un buen momento para abrir un espacio de reflexión sobre tu proyecto profesional, pues empezarás a tomar decisiones que impactarán tu futuro (asignaturas a elegir, tipo de bachillerato, universidades a aplicar). Conocer más sobre tus motivaciones, deseos, intereses, capacidades será de gran ayuda en este camino que se abre frente a ti. "
+      ]
+    },
+    {
+      "tag": "asesoramiento universitario",
+      "patterns": [
+          "qué es el asesoramiento universitario",
+          "en qué consiste el asesoramiento universitario"
+           
+      ],
+      "responses": [
+          "El asesoramiento universitario es un servicio que puede incluir diferentes partes: perfil vocacional, en caso de que no tengas claro la carrera a estudiar, propuesta de universidades y aplicación a universidades "
+      ]
+    },
+    {
+      "tag": "asesoramiento universitario",
+      "patterns": [
+          "Puedo contratar por separado la propuesta universitaria o el acompañamiento a la aplicación",
+          "puedo contratar por un lado la propuesta universitaria y el acompañamiento a la aplicación"
+           
+      ],
+      "responses": [
+          "Si, son servicios independientes dentro del asesoramiento universitario, por lo que podrás contratarlos de manera independiente. Sin embargo, si contratas el pack de asesoramiento universitario que incluye estos dos servicios, disfrutarás de un descuento. Socilita aquí nuestros precios [aqui] (https://beyondeducation.es/contacto/) "
+      ]
+    },
+    {
+      "tag": "carreras universitarias",
+      "patterns": [
+          "a cuántas carreras puedo aplicar",
+          " cuántas carreras puedo solicitar"
+           
+      ],
+      "responses": [
+          "Esto dependerá del país en que quieras aplicar. En el caso de España no tienes límite de aplicaciones, al igual que con Estados Unidos. "
+      ]
+    },
+    {
+      "tag": "carreras universitarias",
+      "patterns": [
+          "cuál es el momento ideal para recibir asesoramiento universitario",
+          "cuál es el momento de recibir asesoramiento universitario",
+          "cuándo es mejor recibir asesoramiento univeristario",
+          "cuál es el mejor momento de recibir asesoramiento universitario"
+           
+      ],
+      "responses": [
+          "Cuanto antes, mejor. El tiempo de aplicación variará dependiendo del país al que quieras aplicar, sin embargo recomendamos empezar a recibir el asesoramiento universitario al menos un año antes de la fecha de inicio del grado, de modo que puedas explorar las diferentes opciones de grados que ofertan en cada país, sus requisitos y proceso de aplicación, para luego comenzar con la preparación del mismo. "
+      ]
+    },
+    {
+      "tag": "asesoramiento universitario",
+      "patterns": [
+          "cuántas sesiones de trabajo incluye el asesoramiento universitario",
+          "cuántas sesiones incluye el asesoramiento universitario",
+          "cuántas sesiones tiene el asesoramiento univeristario",
+          "cuántas sesiones me recomiendas de asesoramiento universitario"
+           
+      ],
+      "responses": [
+          "Va a depender del estudiante, el país que desea aplicar y los requerimientos del grado en cuestión. Al inicio del proceso se planifican las sesiones necesarias. En nuestra experiencia son un mínimo de 4 sesiones/5 sesiones. "
+      ]
+    },
+    {
+      "tag": "homologación universidad",
+      "patterns": [
+          "os encargáis de la convalidación de notas si quiero estudiar en españa",
+          "os encargáis de la homologación y traducción de notas si quiero estudiar en españa",
+          "quien se encarga de la homologación y traducción de las notas si quiero estudiar en españa"
+         
+           
+      ],
+      "responses": [
+          "Este servicio no es ofrecido directamente por Beyond Education, sin embargo te pondremos en contacto con empresas especializadas en esta materia. "
+      ]
+    },
+    {
+      "tag": "preparacion examenes",
+      "patterns": [
+          "nos ayudáis a preparar exámenes de admisión y la entrevista de la universidad ",
+          "me ayudáis a preparar los exámenes de admisión de la universidad",
+          "me ayudáis a preparar las entrevistas de admisión de la universidad"
+         
+           
+      ],
+      "responses": [
+          "Si, en función del examen requerido, te preparamos en Beyond Education o te ponemos en contacto con especialistas que te prepararán para las pruebas de admisión, así como para la entrevista. "
+      ]
+    },
+    {
+      "tag": "certificacion ingles",
+      "patterns": [
+          "nos ayudáis a preparar la certificación de inglés ",
+          "me ayudáis a conseguir la certificación de inglés"
+         
+           
+      ],
+      "responses": [
+          "Si, te ponemos en contacto con tutores para que te ayuden a preparar el examen. Además, te asesoramos sobre el examen y dónde registrarte. "
+      ]
+    },
+    {
+      "tag": "ingles",
+      "patterns": [
+          "qué nivel de inglés necesito para estudiar en estados unidos ",
+          "qué certificación de inglés necesito para estudiar en la universidad en estados unidos"
+         
+           
+      ],
+      "responses": [
+          "Esto dependerá de la universidad, algunas exigen 100 puntos o más en el TOEFL y otras 80, 70 o incluso 60, y para los IELTS entre 6 y 8 puntos. En general dependerá de lo demandada y competitiva que sea la universidad. "
+      ]
+    },
+    {
+      "tag": "ingles",
+      "patterns": [
+          "qué nivel de inglés necesito para estudiar en uk ",
+          "qué certificación de inglés necesito para estudiar en la universidad en uk",
+          "qué nivel de inglés necesito para estudiar en reino unido"
+         
+           
+      ],
+      "responses": [
+          "Las universidades tienen requerimientos específicos de inglés para cada carrera. En general, el nivel está alrededor de 6.5 en el IELTS (o 176 en Cambridge English Score), con algunos requisitos mínimos en cada componente del examen. Sin embargo, en ciertas carreras como derecho o medicina, los requerimientos de inglés pueden llegar a ser de 7.0 o más, con requisitos mínimos específicos en cada componente. En la propuesta de universidades siempre incluimos tanto los requisitos académicos como el nivel de inglés requerido. El requisito de inglés no es necesario a la hora de aplicar, pero si una vez admitido. Algunas universidades ofrecen cursos de inglés previos a la incorporación si el estudiante no cumple con los requisitos exigidos. "
+      ]
+    },
+    {
+      "tag": "ingles",
+      "patterns": [
+          "qué nivel de inglés necesito para estudiar en holanda ",
+          "qué certificación de inglés necesito para estudiar en la universidad en holanda"
+         
+           
+      ],
+      "responses": [
+          "Igual que en Reino Unido, el requerimiento de inglés varía dependiendo de la carrera y universidad. El rango general está entre 6.0 a 7.0 en IELTS, con requisitos específicos para cada componente del examen. "
+      ]
+    },
+    {
+      "tag": "beca academica",
+      "patterns": [
+          "gestionáis becas académicas ",
+          "me ayudas a optar a becas académicas",
+          "incluye la gestión de beca académica"
+         
+           
+      ],
+      "responses": [
+          "Si, entre nuestros diversos servicios se encuentra el apoyo en la búsqueda de becas. Hay que tener en cuenta que los requisitos varían dependiendo del país y universidad de aplicación y que no podemos garantizar resultados. "
+      ]
+    },
+    {
+      "tag": "beca deportiva",
+      "patterns": [
+          "gestionáis becas deportivas ",
+          "me ayudas a optar a becas deportivas",
+          "incluye la gestión de beca deportiva"
+         
+           
+      ],
+      "responses": [
+          "En el caso de Estados Unidos, colaboramos con una empresa especializada en la búsqueda de becas para deportistas. Te pondremos en contacto con ellos y te guiaremos en el proceso. En este caso, nuestra recomendación es que estés federado en tú país o que compitas a un alto nivel. "
+      ]
+    },
+    {
+      "tag": "carta motivacion",
+      "patterns": [
+          "gestionáis cartas de motivación ",
+          "me ayudas a escribir la carta de motivación",
+          "me ayudarán a escribir la carta de motivación"
+         
+           
+      ],
+      "responses": [
+          "Al contratar el servicio completo de asesoramiento universitario para Holanda, Beyond Education ayuda para escribir la(s) carta(s) de motivación y se asegura que tu candidatura destaque del resto. "
+      ]
+    },
+    {
+      "tag": "cv",
+      "patterns": [
+          "gestionáis los curriculum vitae",
+          "me ayudas a escribir el cv",
+          "me ayudarán a hacer el curriculum"
+         
+           
+      ],
+      "responses": [
+          "En Beyond Education tenemos una guía muy útil para elaborar tu CV, te asesoramos en la construcción del mismo, su revisión y validación final "
+      ]
+    },
+    {
+      "tag": "alojamiento",
+      "patterns": [
+          "me ayudas a gestionar el alojamiento",
+          "ofrecéis alojamiento",
+          "me ayudarán a buscar alojamiento"
+         
+           
+      ],
+      "responses": [
+          "En Reino Unido las universidades ofrecen alojamiento. Esto se gestiona directamente con ellas, y por supuesto te podemos apoyar en esta parte del proceso si la requieres. En Holanda, en contadas excepciones, las universidades no ofrecen alojamiento, aunque algunas tienen viviendas reservadas u orientan sobre cómo conseguir alojamiento. En Beyond Education podemos ayudarte en la búsqueda de alojamiento. En Estados Unidos, las universidades ofrecen alojamiento. El sistema está pensado para que los estudiantes vivan por lo menos los dos primeros años en el campus, incluso en muchas universidades es obligatorio que así sea durante el primer año. Esa gestión se hace con la universidad pero os ayudamos a tomar decisiones informadas. En caso de decidir vivir fuera del campus, no podemos ayudarte con la búsqueda del alojamiento. "
+      ]
+    },
+    { 
+      "tag": "inglés",
+      "patterns": ["Me pedirán un nivel de inglés para cursar un programa preuniversitario",
+                   "Necesito tener buen nivel de inglés",
+                   "Tengo que saber inglés",
+                   "Qué nivel de inglés se pide"],
+      "responses": ["Si el curso es en inglés requerirás cierto nivel de inglés para seguir el ritmo de las clases. Algunos programas muy académicos exigen un diploma oficial tipo TOEFL o EILTS. Es importante conocer los requisitos de cada programa que también pueden incluir notas académicas y cartas de recomendación de profesores."]
+  }, 
+
+  { 
+    "tag": "edad preuniversitario",
+    "patterns": ["desde qué edad puedo cursar un curso preuniversitario",
+                 "a qué edad puedo empezar un curso preuniversitario",
+                 "cuál es el requisitio de edad para un curso preuniversitario",
+                 "qué edad necesito tener para empezar un curso preuniversitario"],
+    "responses": ["Puedes matricularte para cursar un curso preuniversitario desde los 14 años. Sin embargo, esto puede variar según el programa. "]
+  },
+
+  { 
+    "tag": "duración preuniversitario",
+    "patterns": ["qué duración tiene un curso preuniversitario",
+                 "cuánto dura un curso preuniversitario",
+                 "cuánto dura el programa preuniversitario",
+                 "en cuánto tiempo puedo hacer el curso preuniversitario"],
+    "responses": ["La mayoría de nuestros programas están diseñados para dos o cuatro semanas pero también tenemos programas de una semana."]
+  },
+
+  { 
+    "tag": "duración campamento verano",
+    "patterns": ["qué duración tiene un campamento de verano",
+                 "cuánto dura un campamento de verano"],
+    "responses": ["La duración varía según el tipo de campamento: desde una semana hasta 2 meses."]
+  },
+
+  { 
+    "tag": "billetes avión",
+    "patterns": ["me gestionan los billetes de avión",
+                 "podeis ayudarme con los billetes de avion",
+                 "cómo gestiono los billetes de avión",
+                 "cómo puedo organizar el viaje en avión"],
+    "responses": ["Nosotros no gestionamos los billetes, sin embargo podemos recomendar una agencia de viajes que lo organiza."]
+  },
+
+  { 
+    "tag": "campamento extranjero",
+    "patterns": ["cuál es la edad ideal para enviar a mi hijo a un campamento en el extranjero",
+                 "desde qué edad puede ir mi hijo a un campamento en el extranjero",
+                 "qué requisitos necesita cumplir mi hijo para ir a un campamento en el extranjero",
+                 "cuántos años tiene que tener mi hijo para ir a un campamento en el extranjero"],
+    "responses": ["La edad del niño depende mucho de si ya ha dormido fuera de casa, es tímido o va acompañado de hermanos. Por lo general, se recomiendan a partir de los 8 años. Nuestro asesoramiento es totalmente personalizado, para hacer nuestras recomendaciones siempre tomamos en cuenta circunstancias de cada niño e intentamos encontrar el campamento que mejor encaje con sus características y los objetivos buscados."]
+  },
+
+  { 
+    "tag": "edad campamentos",
+    "patterns": ["para qué edades van dirigidas los campamentos",
+                 "a qué edad puede ir mi hijo a un campamento",
+                 "cuántos años debe tener mi hijo para ir a un campamento",
+                 "a partir de qué edad puede ir mi hijo a los campamentos"],
+    "responses": ["La edad específica dependerá del campamento elegido. En general, los campamentos van dirigidos a niños a partir de 6 años hasta 18 años."]
+  },
+
+  { 
+    "tag": "visado",
+    "patterns": ["tengo que gestionar algún visado para hacer un curso en reino unido",
+                 "hace falta visado para cursar en reino unido",
+                 "necesito tramitar visado para estudiar en reino unido",
+                 "me van a pedir visado si quiero ir a reino unido"],
+    "responses": [" Para el Reino Unido es necesario un visado por períodos más largos de los 6 meses. El colegio “invita” al estudiante y los formularios los han de completar los padres así como realizar el pago del visado con un coste aproximado de 850 libras. A veces los colegios gestionan los visados a través de un servicio de consultoría externa. El visado cubre los costes de la seguridad social en el país durante la estancia del estudiante. En BE te podemos asistir a rellenar los formularios en cualquier punto del proceso o en cualquier otra duda."]
+  },
+
+  { 
+    "tag": "convalidación",
+    "patterns": ["me ayudarán en el proceso de convalidación",
+                 "cómo puedo hacer la convalidación",
+                 "qué necesito para hacer la convalidación",
+                 "cómo gestiono la convalidación"],
+    "responses": ["Te ponemos en contacto con empresas especializadas en gestionar los trámites de convalidación."]
+  },   
+
+  { 
+    "tag": "convalidar estudios",
+    "patterns": ["a la vuelta, ¿podré convalidar mis estudios?",
+                 "despúes del curso en el extranjero, ¿necesito convalidar mis estudios?",
+                 "tengo que convalidar mis estudios",
+                 "hace falta que convalide mis estudios"],
+    "responses": ["Hasta 4º de la ESO no es necesario pero a partir de este curso se han de convalidar."]
+  },    
+
+  { 
+    "tag": "edad extranjero",
+    "patterns": ["a qué edad puedo cursar un año escolar en el extranjero",
+                 "a qué edad puede ir mi hijo cursar un año escolar en el extranjero",
+                 "cuántos años debe tener mi hijo para ir a estudiar un año en el extranjero",
+                 "a partir de qué edad puede ir mi hijo a estudiar un año en el extranjero"],
+    "responses": ["Es recomendable a partir de los 10 años, siendo posible desde antes. Generalmente, los boarding schools comienzan a tener un número sustancial de alumnos con 11 años, los puntos de entrada son generalmente: 11+, 13+ y 16+ sin perjuicio de que admitan a alumnos en otros años."]
+  },   
+
+  { 
+    "tag": "essay",
+    "patterns": ["me ayudan en la preparación del essay que se requiere para aplicar en las universidades en estados unidos",
+                 "cómo hago el essay para aplicar en las universidades en estados unidos",
+                 "cómo se hace el essay para aplicar en las universidades en estados unidos",
+                 "qué necesito para hacer el essay requerido para aplicar en las universidades de estados unidos"],
+    "responses": ["El essay es uno de los elementos fundamentales en la aplicación. Trabajaremos juntos en la preparación y elaboración del mismo diseñando la estrategia del mismo y su construcción."]
+  },  
+
+  { 
+    "tag": "sat",
+    "patterns": ["me ayudan a preparar el sat (examen estandarizado para la admisión universitaria en estados unidos)",
+                 "me ayudan hago el sat",
+                 "me podéis orientar para hacer el sat",
+                 "me asesoran para hacer el sat (examen estandarizado para la admisión universitaria en estados unidos"],
+    "responses": ["Sí, te ayudaremos en la preparación del SAT y en comprender bien la metodología del examen. De esta manera llegarás con mucha más preparación y seguridad al examen."]
+  }, 
+
+  { 
+    "tag": "exito ingreso universidad",
+    "patterns": ["cuál es el porcentaje de éxito de ingreso a las universidades",
+                 "qué porcentaje de éxito hay en el ingreso a las universidades",
+                 "qué porcentaje de admisión tiene el ingreso a las universidades",
+                 "qué éxito hay a la hora de ingresar a la universidad"],
+    "responses": ["El porcentaje de éxito es de 100%, todos nuestros estudiantes han ingresado en alguna de sus opciones de interés. En ocasiones el estudiante no es admitido en su primera opción, sin embargo durante el asesoramiento nos hemos asegurado de contar con otras excelentes opciones que se adecuen a su perfil y expectativas."]
+  }, 
+
+  { 
+    "tag": "ayuda visa",
+    "patterns": ["me ayudarán a gestionar la visa",
+                 "cómo gesitono la visa",
+                 "qué necesito para hacer mi visa",
+                 "me podéis ayudar a tramitar mi visa"],
+    "responses": ["Reino Unido: Si eres miembro de la EU, te guiaremos sobre donde tienes que ir para empezar tu aplicación. Holanda: Los estudiantes de la UE no necesitan visa para entrar a Holanda o tramitar permiso de residencia. Estados Unidos: Te explicaremos los pasos a seguir para la solicitud de la visa y solucionaremos las dudas que tengas sobre el proceso"]
+  }    
    
 
 
