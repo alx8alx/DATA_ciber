@@ -107,7 +107,7 @@
     },
     {
         "tag": "universidades_españa",
-        "patterns": ["Universidades en España", "Quiero estudiar en una universidad en España"],
+        "patterns": ["Universidades en España", "Quiero estudiar en una universidad en España", "quiero estudiar en un colegio en España"],
         "responses": [ "Te ayudamos a seleccionar la mejor universidad en España para tus estudios de grado o postgrado. Analizamos tu perfil y objetivos para ofrecerte las opciones más adecuadas. ¿Te gustaría más información?"
                         ]
     },
@@ -123,7 +123,7 @@
     },
     {
         "tag": "consulta_servicios",
-        "patterns": ["Que servicios tenéis", "Que servicios ofrecéis"],
+        "patterns": ["Que servicios tenéis", "Que servicios ofrecéis", "Que servicios ofrecen"],
         "responses": ["Actualmente contamos con una amplia gama de servicios diseñados para satisfacer tus necesidades educativas y profesionales. ¿Hay algo específico en lo que estás interesado?"]
     },
     {
@@ -244,7 +244,7 @@
     },
     {
         "tag": "mas_desarrollo_personal",
-        "patterns": ["Más detalles sobre desarrollo personal", "¿Puedes darme más información sobre los cursos de desarrollo personal?"],
+        "patterns": ["Más detalles sobre desarrollo personal", "Puedes darme más información sobre los cursos de desarrollo personal?"],
         "responses": ["Encuentra más información sobre nuestros cursos de desarrollo personal aquí: [Desarrollo Personal](https://beyondeducation.es/desarrollo-personal-cursos/). ¿Necesitas ayuda adicional en algo más?"]
     },
     {
@@ -254,7 +254,7 @@
     },
     {
         "tag": "mas_universidades",
-        "patterns": ["Más detalles sobre universidades en el extranjero", "¿Puedes darme más información sobre estudiar en el extranjero?"],
+        "patterns": ["Más detalles sobre universidades en el extranjero", "Puedes darme más información sobre estudiar en el extranjero?","Puedes darme mas informacion sobre estudiar en el extranjero?"],
         "responses": ["Aquí encontrarás información detallada sobre estudiar en el extranjero: [Universidades en el Extranjero](https://beyondeducation.es/estudiar-en-el-extranjero-grados-y-postgrados/). ¿Hay algo más en lo que pueda ayudarte?"]
     },
     {
@@ -279,7 +279,7 @@
     },
     {
         "tag": "mas_orientacion_profesional",
-        "patterns": ["Más información sobre orientación profesional", "Quiero saber más sobre cómo obtener orientación laboral"],
+        "patterns": ["Más información sobre orientación profesional", "Quiero saber más sobre cómo obtener orientación laboral","Quiero saber mas sobre como obtener orientacion laboral"],
         "responses": ["Para obtener más detalles sobre nuestros servicios de orientación profesional, visita nuestra página: [Orientación Profesional](https://beyondeducation.es/orientacion-profesional-2/). ¿Puedo ayudarte con algo más?"]
     },
 
