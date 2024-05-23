@@ -57,6 +57,7 @@ def save_message_to_db(pregunta, respuesta):
     cursor.close()
     conn.close()
 
+
 # Crear la tabla si no existe
 create_table_if_not_exists()
 
@@ -76,9 +77,9 @@ for message in st.session_state.messages:
 
 if st.session_state.first_message:
     with st.chat_message("assistant"):
-        st.markdown("Hola, ¿Como puedo ayudarte?")
+        st.markdown("¡Hola! Soy Chaty, tu asistente virtual en Beyond Education. ¿Cómo puedo ayudarte hoy?")
 
-    st.session_state.messages.append({"role": "assistant", "content": "Hola, ¿Como puedo ayudarte?"})
+    st.session_state.messages.append({"role": "assistant", "content": "¡Hola! Soy Chaty, tu asistente virtual en Beyond Education. ¿Cómo puedo ayudarte hoy?"})
 
     st.session_state.first_message = False
 
@@ -97,3 +98,4 @@ if prompt := st.chat_input("cómo puedo ayudarte?"):
 
     # Guardar pregunta y respuesta en la base de datos
     save_message_to_db(prompt, res)
+
