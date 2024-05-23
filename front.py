@@ -1,7 +1,19 @@
 import streamlit as st
 import psycopg2
 from chatbot import predict_class, get_response, intents
-from cred import my_database, my_host, my_password, my_port, my_user
+import nltk
+nltk.download('punkt')
+nltk.download('wordnet')
+
+
+
+import os
+
+my_database = os.environ.get('my_database')
+my_host = os.environ.get('my_host')
+my_password = os.environ.get('my_password')
+my_port = os.environ.get('my_port')
+my_user = os.environ.get('my_user')
 
 # Configura las variables de conexión
 HOST = my_host
