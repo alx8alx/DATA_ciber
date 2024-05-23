@@ -14,11 +14,7 @@ my_host = os.environ.get('my_host')
 my_password = os.environ.get('my_password')
 my_port = os.environ.get('my_port')
 my_user = os.environ.get('my_user')
-my_database = "chatbot_8n2w"
-my_host = "dpg-cp6qaka0si5c73aigcc0-a.frankfurt-postgres.render.com"
-my_password = "UmxrGACXMb3Y1jaYLwnuS5zQDUBtXWg6"
-my_port = 5432 
-my_user = "chatbot_8n2w_user"
+
 # Configura las variables de conexión
 HOST = my_host
 DATABASE = my_database
@@ -103,9 +99,3 @@ if prompt := st.chat_input("cómo puedo ayudarte?"):
     # Guardar pregunta y respuesta en la base de datos
     save_message_to_db(prompt, res)
 
-if st.button("Chaty"):
-    video_file = open('media/pedro.mp4', 'rb')
-    video_bytes = video_file.read()
-    st.video(video_bytes,  loop=True, autoplay=True)
-else:
-    st.write("Goodbye")
