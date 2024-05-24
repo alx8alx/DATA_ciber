@@ -396,7 +396,7 @@
     {
       "tag": "consulta_servicios",
       "patterns": ["Qué servicios tenéis", "Qué servicios ofrecéis"],
-      "responses": ["Actualmente contamos con múltiples servicios. Podemos ofrecer orientación vocacional y profesional, selección de colegios y universidades, preparación de exámenes, campamentos, cursos preuniversitarios, voluntariados y desarrollo personal. ¿En qué estás interesado?", "Ofrecemos una variedad de servicios. ¿Te gustaría saber más sobre alguno en particular?"]
+      "responses": ["Actualmente contamos con múltiples servicios. Podemos ofrecer orientación vocacional y profesional, selección de colegios y universidades, preparación de exámenes, campamentos, cursos preuniversitarios, voluntariados y desarrollo personal. ¿En qué estás interesado?", "Ofrecemos una variedad de servicios. ¿Te gustaría saber más sobre alguno en particular?, dejanos tu consulta en el siguiente [formulario](https://beyondeducation.es/contacto/)."]
     },
     {
       "tag": "orientacion_vocacional",
