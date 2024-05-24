@@ -5,8 +5,6 @@ import nltk
 nltk.download('punkt')
 nltk.download('wordnet')
 
-
-
 import os
 
 my_database = os.environ.get('my_database')
@@ -83,14 +81,17 @@ if st.session_state.first_message:
 
     st.session_state.first_message = False
 
-if prompt := st.chat_input("cómo puedo ayudarte?"):
+if prompt := st.chat_input("¿Cómo puedo ayudarte?"):
     with st.chat_message("user"):
         st.markdown(prompt)
     st.session_state.messages.append({"role": "user", "content": prompt})
 
-    # Implementación del algoritmo
-    insts = predict_class(prompt)
-    res = get_response(insts, intents)
+    # Implementación del algoritmo con manejo de errores
+    try:
+        insts = predict_class(prompt)
+        res = get_response(insts, intents)
+    except IndexError:
+        res = "Perdona, no tengo clara la pregunta, ¿puedes reformularla?"
 
     with st.chat_message("assistant"):
         st.markdown(res)
@@ -98,4 +99,3 @@ if prompt := st.chat_input("cómo puedo ayudarte?"):
 
     # Guardar pregunta y respuesta en la base de datos
     save_message_to_db(prompt, res)
-
