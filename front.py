@@ -70,7 +70,7 @@ st.set_page_config(page_title="Chaty", page_icon="img/cropped-Beyond-Education_H
 
 # Título
 
-st.title("            :male_mage: Asistente virtual:robot_face:")
+st.title(":male_mage: Asistente virtual:robot_face:")
 
 
 if "messages" not in st.session_state:
