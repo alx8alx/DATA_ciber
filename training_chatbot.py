@@ -21,7 +21,7 @@ lemmatizer = WordNetLemmatizer()
 words = []
 classes = []
 documents = []
-ignore_words = ['?', '!','¿', '¡','#','@','$','%','^','&','*','>','<','|','{','}','[',']','/']
+ignore_words = ['?', '!']
 
 # Recorre cada intención y sus patrones en el archivo JSON
 for intent in intents['intents']:

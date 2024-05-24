@@ -340,7 +340,7 @@
     {
       "tag": "seleccion_universidades",
       "patterns": ["Selección de universidades", "Universidades en España", "Universidades en el extranjero"],
-      "responses": ["Ofrecemos servicios para seleccionar universidades tanto en España como en el extranjero. Ayudamos a encontrar la universidad que mejor se ajuste a tus intereses y objetivos académicos. ¿Te gustaría más información? Más información sobre universidades en España [aquí](https://beyondeducation.es/orientacion-universitaria-en-espana/) y sobre universidades en el extranjero [aquí](https://beyondeducation.es/estudiar-en-el-extranjero-grados-y-postgrados/)."]
+      "responses": ["Ofrecemos servicios para seleccionar universidades tanto en España como en el extranjero. Ayudamos a encontrar la universidad que mejor se ajuste a tus intereses y objetivos académicos. ¿Te gustaría más información? Más información sobre universidades en España [aquí](https://beyondeducation.es/orientacion-universitaria-en-espana/) y sobre universidades en el extranjero [aquí](https://beyondeducation.es/estudiar-en-el-extranjero-grados-y-postgrados/), o dejanos tu [contacto](https://beyondeducation.es/contacto/)."]
     },
     {
       "tag": "preparacion_examenes",
@@ -441,7 +441,7 @@
     {
       "tag": "seleccion_universidades",
       "patterns": ["Selección de universidades", "Universidades en España", "Universidades en el extranjero"],
-      "responses": ["Ofrecemos servicios para seleccionar universidades tanto en España como en el extranjero. Ayudamos a encontrar la universidad que mejor se ajuste a tus intereses y objetivos académicos. ¿Te gustaría más información? Más información sobre universidades en España [aquí](https://beyondeducation.es/orientacion-universitaria-en-espana/) y sobre universidades en el extranjero [aquí](https://beyondeducation.es/estudiar-en-el-extranjero-grados-y-postgrados/)."]
+      "responses": ["Ofrecemos servicios para seleccionar universidades tanto en España como en el extranjero. Ayudamos a encontrar la universidad que mejor se ajuste a tus intereses y objetivos académicos. ¿Te gustaría más información?, Más información sobre universidades en España [aquí](https://beyondeducation.es/orientacion-universitaria-en-espana/) y sobre universidades en el extranjero [aquí](https://beyondeducation.es/estudiar-en-el-extranjero-grados-y-postgrados/)."]
     },
     {
       "tag": "preparacion_examenes",
