@@ -1,0 +1,6 @@
+streamlit
+nltk
+numpy
+keras
+psycopg2-binary
+tensorflow
