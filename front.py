@@ -13,6 +13,7 @@ my_password = os.environ.get('my_password')
 my_port = os.environ.get('my_port')
 my_user = os.environ.get('my_user')
 
+
 # Configura las variables de conexión
 HOST = my_host
 DATABASE = my_database
@@ -61,7 +62,11 @@ create_table_if_not_exists()
 
 st.set_option('deprecation.showfileUploaderEncoding', False)
 st.set_page_config(page_title="Chaty", page_icon="img/cropped-Beyond-Education_Horizonatal-color.png")
+
+# Título
+
 st.title(":male_mage: Asistente virtual:robot_face:")
+
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
@@ -91,11 +96,11 @@ if prompt := st.chat_input("¿Cómo puedo ayudarte?"):
         insts = predict_class(prompt)
         res = get_response(insts, intents)
     except IndexError:
-        res = "Perdona, no tengo clara la pregunta, ¿puedes reformularla?"
+        res = "Perdona, no tengo clara la pregunta, ¿puedes reformularla?, aún soy 1.0 [:chipmunk:](https://pedrope.streamlit.app/)"
 
     with st.chat_message("assistant"):
         st.markdown(res)
     st.session_state.messages.append({"role": "assistant", "content": res})
 
     # Guardar pregunta y respuesta en la base de datos
-    save_message_to_db(prompt, res)
+    save_message_to_db(prompt.replace("DELETE", ""), res)
