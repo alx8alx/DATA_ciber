@@ -2,8 +2,6 @@
 base = "light"
 primaryColor = "#a50085"
 
-[deprecation]
-showPyplotGlobalUse = false
 
 [server]
 enableCORS = false
